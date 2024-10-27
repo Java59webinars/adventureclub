@@ -8,21 +8,12 @@ html, body{
 }
 body{
     min-height: 100%;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/backgroundv3.jpg");
     background-size: cover;
     position: relative;
     z-index: 1;
     font-family: 'Roboto', sans-serif;
 }
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
 
 .header{
     text-align: center;
