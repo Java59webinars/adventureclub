@@ -38,12 +38,12 @@ nav li{
     font-size: 0.8em;
     border-radius: 6px;
 }
-.logo{
-    float: left;
-    width: 10%;
-    margin-right: 20px;
-    margin-bottom: 10px;
-}
+/*.logo{*/
+/*    float: left;*/
+/*    width: 10%;*/
+/*    margin-right: 20px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
 .gallery{
     float: right;
     width: 40%;
