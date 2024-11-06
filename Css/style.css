@@ -15,20 +15,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.header{
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(240, 241, 219, 0.62);
-    overflow: hidden;
-    position: relative;
-}
-h1{
-    color: #cd7b08;
+.navbar-brand{
+    color: #cd7b08 !important;
     font-family: 'Playfair Display', sans-serif;
-
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
+
 nav{
     position: absolute;
     bottom: 0;
