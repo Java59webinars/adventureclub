@@ -44,22 +44,22 @@ nav li{
 /*    margin-right: 20px;*/
 /*    margin-bottom: 10px;*/
 /*}*/
-.gallery{
-    float: right;
-    width: 40%;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.gallery img{
-    width: 32%;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 10px;
-    border: 2px solid #cd7b08;
-}
+/*.gallery{*/
+/*    float: right;*/
+/*    width: 40%;*/
+/*    margin-left: 20px;*/
+/*    margin-bottom: 10px;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+/*.gallery img{*/
+/*    width: 32%;*/
+/*    height: 150px;*/
+/*    object-fit: cover;*/
+/*    margin-bottom: 10px;*/
+/*    border: 2px solid #cd7b08;*/
+/*}*/
 footer{
     position: fixed;
     bottom: 0;
