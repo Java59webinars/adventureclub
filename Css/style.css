@@ -35,3 +35,40 @@ footer {
     text-align: justify;
     margin-left: 10px;
 }
+@media (max-width: 768px) {
+    /* delete float for mobail */
+    .logo, .gallery, .content {
+        float: none;
+    }
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    /* logo -1st, text -2nd, gallery -3d */
+    .logo {
+        order: 1;
+        margin-bottom: 1rem;
+    }
+
+    .content {
+        order: 2;
+    }
+
+    .gallery {
+        order: 3;
+        margin-top: 1rem;
+    }
+
+    form{
+        order: 4;
+    }
+
+    /* flex -> block */
+    .logo, .gallery, .content {
+        display: block;
+        width: 100%;
+    }
+}
