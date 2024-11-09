@@ -49,7 +49,7 @@
         <img src="./images/photo9.jpg" alt="Auto traveling" class="col-12 col-md-6 col-lg-4  p-0">
     </div>
 
-    <div class="content">
+    <div class="content mx-2">
         <h2> Привет путешественник!</h2>
         <p>Клуб ActiveTravel объединяет любителей активного отдыха и путешествий, предлагая уникальные маршруты и
             незабываемые приключения. Наша миссия — вдохновлять людей исследовать мир нестандартными способами, будь то
@@ -67,20 +67,19 @@
             дайвинг, хели-ски или управление самолетами. С нами каждое путешествие — это уникальный опыт!</p>
     </div>
 
-    <form class="my-4" action="https://www.tripadvisor.com/Search" method="get" target="_self">
+    <form class="my-4 p-4 rounded shadow" action="https://www.tripadvisor.com/Search" method="get" target="_self" style="max-width: 400px; background-color: #f8f9fa;">
         <fieldset>
-            <legend>Search on TripAdvisor</legend>
-            <label>
-                <input name="q"
-                       placeholder="Enter a place name"
-                       required
-                       type="text">
-            </label>
-            <button class="btn btn-success" type="submit">Find on TripAdvisor</button>
+            <legend class="text-center fs-4 mb-3 text-primary">Search on TripAdvisor</legend>
+            <div class="mb-3">
+                <label for="search" class="form-label visually-hidden">Enter a place name</label>
+                <input name="q" id="search" placeholder="Enter a place name" required type="text" class="form-control border-primary">
+            </div>
+            <div class="d-grid">
+                <button class="btn btn-primary btn-lg" type="submit">Find on TripAdvisor</button>
+            </div>
         </fieldset>
     </form>
 </main>
-
 <footer class="container-fluid text-center py-3" >
     <p class="mb-0 text-white"> &copy; 2024 ATC. All rights reserved</p>
 </footer>
